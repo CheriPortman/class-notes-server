@@ -1,0 +1,40 @@
+{
+  "name": "class-notes-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.14"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "test": "jest --runInBand --verbose",
+    "test-watch": "npm run test -- --watch",
+    "start": "node server.js",
+    "start-watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheriPortman/class-notes-server.git"
+  },
+  "keywords": [],
+  "author": "Cheri Portman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CheriPortman/class-notes-server/issues"
+  },
+  "homepage": "https://github.com/CheriPortman/class-notes-server#readme"
+}
