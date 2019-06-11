@@ -42,7 +42,7 @@ describe('notes routes', () => {
     const notes = await Promise.all([
       createNote({ title: 'hi', body: 'there' }),
       createNote({ title: 'hey', body: 'there' }),
-      createNote({ title: 'hi', body: 'buddy' }),
+      createNote({ title: 'heeeelo', body: 'buddy' })
     ]);
 
     return request(app)
